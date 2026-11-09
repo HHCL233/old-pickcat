@@ -1,0 +1,10 @@
+[project]
+name = "pickcat-proxy"
+version = "0.1.0"
+description = "PICKCAT Vue 2.7 replica API proxy and static frontend host"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.162.2",
+    "uvicorn>=0.35.0",
+    "httpx>=0.28.1",
+]
